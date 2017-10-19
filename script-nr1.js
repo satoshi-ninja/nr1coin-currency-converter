@@ -88,7 +88,7 @@ $(document).ready(function(){
 			rc_price = Cryptos[CryptoDict[rc]].price_usd;
 			rc_trend = Cryptos[CryptoDict[rc]].percent_change_24h;
 		}
-
+		$("#rc_tableh").html(rc);
 		showCryptos();
 
 	}
